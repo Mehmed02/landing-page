@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.header-logo img{
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+}
+
+.menu{
+    font-size: 18px;
+    font-family: #e5e7eb;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.hero{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.naruto{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
